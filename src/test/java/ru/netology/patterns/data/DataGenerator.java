@@ -1,8 +1,6 @@
 package ru.netology.patterns.data;
 
 import com.github.javafaker.Faker;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Value;
 
 import java.time.LocalDate;
@@ -10,8 +8,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Random;
 
-@Data
-@AllArgsConstructor
 public class DataGenerator {
     public static Faker faker = new Faker(new Locale("ru"));
 
